@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(32, 37, 41, 1);
+}
+/* left content */
+.color{
+    color: #f6cba0;
+}
+.profile{
+    width: 10rem;
+    height: 10rem;
+}
+.img-section{
+    height: 100vh;
+}
+.btn-cv{
+    background: rgb(38 44 50);  
+    box-shadow: -0.5px -0.5px 8px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+}
+.social-links{
+    margin-top: 2rem;
+}
+.social-link{
+    background: rgb(38 44 50);
+    box-shadow: -0.5px -0.5px 5px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+    color: #f6cba0;
+}
+.bi{
+    padding: 0.7rem 0.8rem;
+}
+.bi-linkedin,.bi-instagram{
+    margin-left: 1.4rem;
+}
+/* left content end */
+/* right section */
+.about{
+    background: rgba(32, 37, 41, 1);
+    box-shadow: -0.5px -0.5px 8px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+}
+hr{
+    height:2px;
+    border-width:0;
+    background-color:rgb(0, 0, 0);
+}
+.right-content{
+    max-height: 100vh;
+    overflow: scroll;
+}
+.right-content::-webkit-scrollbar {
+    display: none;
+}
+.about-my-skill{
+    background: rgba(32, 37, 41, 1);
+    box-shadow: -0.5px -0.5px 8px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+}
+.skills{
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+}
+.html-img,.css-img,.js-img,.bootstrap-img,.figma-img,.photshop-img,.canva-img,.git-img{
+    width: 15%;
+    margin: 0rem 1.2rem;
+    background: rgba(32, 37, 41, 1);
+    box-shadow: -0.5px -0.5px 8px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+}
+.project-section{
+    background: rgba(32, 37, 41, 1);
+    box-shadow: -0.5px -0.5px 8px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+}
+.projects{
+    color: #fff;
+}
+ .projects i{
+    display: none;
+    position: relative;
+ }
+.projects:hover {
+    color: #f6cba0;
+}
+.projects:hover i{
+    color: #f6cba0;
+}
+.projects:hover i{
+    color: #f6cba0;
+    display: inline;
+}
+.contact{
+    background: rgba(32, 37, 41, 1);
+    box-shadow: -0.5px -0.5px 8px #f6cba0,
+                5px 5px 5px rgb(26, 24, 24);
+}
+.input-field-label{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.input-field{
+    background: rgb(26, 29, 32);
+    border-radius: 0.1rem;
+    outline: none;
+}
+.input-field:focus{
+    outline: 0.15rem solid #f6cba0;
+}
+
+
+
+
+/* right section end */
