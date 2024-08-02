@@ -45,28 +45,28 @@
                         <hr>
                         <div class="container w-100 mt-4 d-flex justify-content-center">
                             <div class="row w-100 justify-content-center">
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 html-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills html-img mb-4">
                                     <img class="w-100 my-3" src="Assets/Logos/html.png" alt="html-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 css-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills css-img mb-4">
                                     <img class="w-100 my-3" src="Assets/Logos/css.png" alt="css-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 js-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills js-img mb-4">
                                     <img class="w-100  my-3" src="Assets/Logos/javaScript.png" alt="js-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 bootstrap-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills bootstrap-img mb-4">
                                     <img class="w-100  my-3" src="Assets/Logos/bootstrap.png" alt="bootstrap-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0  figma-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills figma-img mb-4">
                                     <img class="w-100 my-3 " src="Assets/Logos/figma.png" alt="figma-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 photshop-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills photshop-img mb-4">
                                     <img class="w-100 my-3" src="Assets/Logos/photoshop.png" alt="photshop-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 canva-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills canva-img mb-4">
                                     <img class="w-100  my-3" src="Assets/Logos/canva.png" alt="canva-img">
                                 </div>
-                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 git-img mb-4">
+                                <div class="col-4 col-sm-6 col-md-6  border rounded border-0 skills git-img mb-4">
                                     <img class="w-100  my-3" src="Assets/Logos/git.png" alt="git-img">
                                 </div>
                             </div>
@@ -87,9 +87,38 @@
                         </ul>
                     </div>
                     <div class="contact p-4 pb-2 w-100  border rounded border-0 mt-5">
-                        <h6 class="color fw-bold">Contact Me</h6>
-                        <hr>      
+                        <h6 class="color fw-bold">Contact With Me</h6>
+                        <hr>
+                        
+                               
+                        <div class="row">
+                            <div class="col-md-6 ">
+                            <label for="name" class="text-white input-field-label tracking-widest">YOUR NAME</label>
+                            <input type="text" id="name" name="name" class="w-100 mt-2 border border-0 input-field text-white p-1" required autocomplete="off">
+                            </div>
                             <div class="col-md-6 w-50">
+                            <label for="pnumber" class="text-white input-field-label tracking-widest">PHONE NUMBER</label>
+                            <input type="number" id="phone" name="pnumber" class="w-100 mt-2 border border-0 input-field text-white p-1" required>
+                            </div>
+                            </div>
+                            <div class="row pt-3">
+                            <div class="col-md-12">
+                            <label for="mail" class="text-white input-field-label tracking-widest">EMAIL</label>
+                            <input type="email" id="email" name="mail" class="w-100 mt-2 border border-0 input-field text-white p-1" required required autocomplete="off">
+                            </div>
+                            </div>
+                            <div class="row pt-3">
+                            <div class="col-md-12">
+                            <label for="sub" class="text-white input-field-label tracking-widest">SUBJECT</label>
+                            <input type="text" id="subject" name="sub" class="w-100 mt-2 border border-0 input-field text-white p-1" required required autocomplete="off">
+                            </div>
+                            </div>
+                            <div class="row pt-3">
+                            <div class="col-md-12">
+                            <label for="messege" class="text-white input-field-label tracking-widest">YOUR MESSEGE</label>
+                            <textarea name="messege" id="messege" rows="6" class="w-100 mt-2 border border-0 input-field text-white p-1" required required autocomplete="off"></textarea>
+                            </div>
+                            </div>
                             <button type="submit" class="py-2 px-4 my-3 border rounded btn-cv border-0" onclick="sendEmail()"><span class="fw-bold color">SEND MESSEGE</span></button>
                     </div>
                 </div>

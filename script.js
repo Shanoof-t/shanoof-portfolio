@@ -14,7 +14,7 @@ function sendEmail(){
             alert("Email sent successfully!")
             document.getElementById("name").value="";
             document.getElementById("email").value="";
-            document.getElementById("pnumber").value="";
+            document.getElementById("phone").value="";
             document.getElementById("subject").value="";
             document.getElementById("messege").value="";
           
